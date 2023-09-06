@@ -12,8 +12,18 @@ var contact = ['Roman', 12345];
 // Any - allow to put any value in the variable
 var variable = 33;
 variable = 'some changed value';
+// Function
 function saySomething(something) {
     console.log(something);
 }
 saySomething('bla-bla-bla');
+// Never
+function throwError(message) {
+    throw new Error(message);
+}
+function infinite() {
+    while (true) {
+        console.log('ooo');
+    }
+}
 console.log(message);

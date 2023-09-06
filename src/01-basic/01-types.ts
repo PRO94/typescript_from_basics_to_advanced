@@ -19,10 +19,22 @@ const contact: [string, number] = ['Roman', 12345];
 let variable: any = 33;
 variable = 'some changed value';
 
+// Function
 function saySomething(something: string): void{
     console.log(something);
 }
 
 saySomething('bla-bla-bla');
+
+// Never
+function throwError(message: string): never {
+    throw new Error(message);
+}
+
+function infinite(): never {
+    while(true) {
+        console.log('ooo')
+    }
+}
 
 console.log(message);
