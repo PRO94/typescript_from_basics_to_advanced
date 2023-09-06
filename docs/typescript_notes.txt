@@ -1,0 +1,13 @@
+Official web portal:
+https://www.typescriptlang.org/
+
+Typescript - a tool which is only for development proccess because the final result will be translated to pure JS.
+
+1. Install typescript globally:
+install -g typescript
+
+2. Write typescript functionality in .ts file. After that use the command to build .js file from the .ts:
+tsc 01-types.ts     // fileName.ts
+
+3. Only when .js file is/are built - it will be possible to run the file/s with node:
+node 01-types.js    // fileName.js
