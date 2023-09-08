@@ -20,3 +20,9 @@ npm init -y
 add dependencies to the project:
 npm install -D (or --save-dev) packageName
 result: nom install --save-dev typescript
+
+check typescript version globally:
+tsc -v
+
+add ts configurations to the projects:
+tsc --init
