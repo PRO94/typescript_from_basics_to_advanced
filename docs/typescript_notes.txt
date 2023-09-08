@@ -16,3 +16,7 @@ node 01-types.js    // fileName.js
 
 create default project: (it will add package.json with default values)
 npm init -y
+
+add dependencies to the project:
+npm install -D (or --save-dev) packageName
+result: nom install --save-dev typescript
