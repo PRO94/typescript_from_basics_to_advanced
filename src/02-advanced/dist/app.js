@@ -1,2 +1,2 @@
 "use strict";
-console.log('App.ts');
+console.log('App.ts!');
