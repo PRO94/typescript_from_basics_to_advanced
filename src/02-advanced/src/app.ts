@@ -1,22 +1,22 @@
-class Person {
-    private name: string;
+// class Person {
+//     private name: string;
 
-    constructor(name: string) {
-        this.name = name;
-    }
+//     constructor(name: string) {
+//         this.name = name;
+//     }
 
-    updateName(newName: string) {
-        this.name = newName;
-    }
+//     updateName(newName: string) {
+//         this.name = newName;
+//     }
 
-    getName() {
-        return this.name;
-    }
-}
-const roman = new Person('Roman');
+//     getName() {
+//         return this.name;
+//     }
+// }
+// const roman = new Person('Roman');
 
-const btn: Element = document.querySelector('#btn')!;
+// const btn: Element = document.querySelector('#btn')!;
 
-btn.addEventListener('click', (event) => {
-    console.log(event);
-});
+// btn.addEventListener('click', (event) => {
+//     console.log(event);
+// });
