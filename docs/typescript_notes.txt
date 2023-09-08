@@ -29,3 +29,10 @@ tsc --init
 
 auto updating js files from ts:
 tsc --watch (or -w)
+
+
+==========
+
+Useful libraries:
+https://github.com/typestack/class-transformer
+https://github.com/typestack/class-validator
